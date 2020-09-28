@@ -1,15 +1,14 @@
 ---
-title: "Analysis Age and Gender Effect On COVID-19 in Toronto"
-author: "Dingyi Yu"
-date: 2020-09-28T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+title: "COVID-19 CASES IN TORONTO ANALYSIS"
+author: "DINGYI YU"
+date: "26/09/2020"
+output: html_document
 bibliography: "reference.bib"
 abstract: Under the context of COVID-19 global pandemic, there has been over 150,000 cumulative confirmed cases in Canada, including more than 15,000 cumulative confirmed cases in Toronto. This analysis aims to explore how a person's age and gender could affect the chance and severity of COVID-19 infection based on COVID-19 CASES IN TORONTO ANALYSIS dataset (@citeopendatatoronto). We find that the role of gender is remarkably associated with age ranges. The finding have implications for understanding the characteristic of the virus.  
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
@@ -68,6 +67,8 @@ ggplot(cleaned_data, aes(`Age Group`, fill=`Age Group`))+
   labs(x="Age Group",y="Amount of People",title = "COVID-19 CASES IN TORONTO WITH DIFFERENT AGE GROUP",caption = "Source: Toronto Public Health, 2020.")+ coord_flip()
 ```
 
+
+
 The graph provides us a overview about the distribution of the confirmed case in term of different age groups. Through the graph we can see that the people from 20-29 years old contribute the largest portion of infected cases whereas people younger than 20 years old is least likely to get infected. People from 20-59 years old is much more likely to get infected comparing to other age groups. 
 
 
@@ -114,12 +115,27 @@ The overall distribution of people that have ever been in ICU or intubated is ve
 
 
 
+
+
+
+
+
 ```{r, echo=FALSE,message=FALSE}
 fatal_data <- cleaned_data %>% filter(`Outcome` == 'FATAL')
 ggplot(fatal_data, aes(`Age Group` , fill=`Client Gender`))+
   geom_histogram(stat="count",position="dodge")+
   labs(x="Age Group",y="Amount of People",title = "COVID-19 CASES IN TORONTO WITH DIFFERENT AGE GROUP",caption = "Source: Toronto Public Health, 2020.")+ coord_flip()
 ```
+
+
+
+
+
+
+
+
+
+
 
 
 # Reference
