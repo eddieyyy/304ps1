@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on A Hugo website</title>
+    <link>/categories/r/</link>
+    <description>Recent content in R on A Hugo website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Sep 2020 21:13:14 -0500</lastBuildDate><atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis Age and Gender Effect On COVID-19 in Toronto</title>
+      <link>/2020/09/28/analysis-age-and-gender-effect-on-covid-19-in-toronto/</link>
+      <pubDate>Mon, 28 Sep 2020 21:13:14 -0500</pubDate>
+      
+      <guid>/2020/09/28/analysis-age-and-gender-effect-on-covid-19-in-toronto/</guid>
+      <description>Introduction Since the first case reported in January 2020, people around the world are suffering the plague caused by COVID-19 and it is still causing deaths. As of the moment when the study is conducted, there have been more than 32 millions cumulative confirmed cases worldwide, which caused almost 1 million of death. Canada is also experiencing an ongoing outbreak, with more than 150,000 cumulative confirmed cases caused over 9,000 deaths.</description>
+    </item>
+    
+    <item>
+      <title>Analysis Age and Gender Effect On COVID-19 in Toronto</title>
+      <link>/2020/09/28/analysis-age-and-gender-effect-on-covid-19-in-toronto/</link>
+      <pubDate>Mon, 28 Sep 2020 21:13:14 -0500</pubDate>
+      
+      <guid>/2020/09/28/analysis-age-and-gender-effect-on-covid-19-in-toronto/</guid>
+      <description>Introduction Since the first case reported in January 2020, people around the world are suffering the plague caused by COVID-19 and it is still causing deaths. As of the moment when the study is conducted, there have been more than 32 millions cumulative confirmed cases worldwide, which caused almost 1 million of death. Canada is also experiencing an ongoing outbreak, with more than 150,000 cumulative confirmed cases caused over 9,000 deaths.</description>
+    </item>
+    
+  </channel>
+</rss>
